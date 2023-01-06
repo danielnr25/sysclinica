@@ -31,7 +31,7 @@
                 @method('PUT')
                 <div class="form-group">
                     <label for="name">Nombre de la especialidad</label>
-                    <input class="form-control" type="text" name="name" value={{ old('name', $specialty->name) }} required>
+                    <input class="form-control" type="text" name="name" value="{{ old('name', $specialty->name) }}" required>
                 </div>
                 <div class="form-group">
                     <label for="description">Descripción</label>

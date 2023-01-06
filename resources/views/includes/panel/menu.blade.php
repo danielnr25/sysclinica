@@ -1,7 +1,7 @@
 <h6 class="navbar-heading text-muted">Gestión</h6>
 <ul class="navbar-nav">
     <li class="nav-item  active ">
-      <a class="nav-link  active " href="./index.html">
+      <a class="nav-link  active " href="{{ url('/home') }}">
         <i class="ni ni-tv-2 text-danger"></i> Dashboard
       </a>
     </li>
