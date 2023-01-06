@@ -132,7 +132,7 @@
     </div>
     <div class="container-fluid mt--7">
         @yield('content')
-        @include('includes.panel.footer')
+       {{--  @include('includes.panel.footer') --}}
     </div>
   </div>
   <!--   Core   -->
