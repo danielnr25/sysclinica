@@ -37,4 +37,12 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function scopePatients($query){
+        return $this->where('role', 'paciente');
+    }
+
+    public function scopeDoctors($query){
+        return $this->where('role', 'doctor');
+    }
 }
